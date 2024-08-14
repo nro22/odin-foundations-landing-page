@@ -83,6 +83,7 @@ h2{
 h3{
     color:#1F2937
 }
+
 .imgText{
     color:#1F2937;
     margin-left: .25em;
@@ -130,6 +131,9 @@ h3{
     .section__one-right{
         justify-content: center;
     }
+    /* .section__two{
+        width:100%
+    } */
     .fourImages{
         display: flex;
         flex-direction: column;
@@ -140,15 +144,18 @@ h3{
     }
     .imgWide{
         width: 424.9px;
+        /* max-width: 619.65px; */
     }
     .imgTall{
         width: 175.1px;
+        /* max-width: 255.35px; */
         height: 318.683px;
+        /* max-height: 467.66px; */
     }
     .imgText{
         display: none;
     }
-    .imgGrid{
+    .imgTall , .imgWide{
         padding: .25em;
     }
 
