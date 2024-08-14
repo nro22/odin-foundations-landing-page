@@ -1,0 +1,41 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    max-width: 1128px;
+    font-family: 'Roboto';
+}
+.hero-container,
+.footer-container{
+    background: #1F2937;
+}
+.section__three-container{
+    background: #e5e7eb;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav__list{
+    list-style: none;
+    padding: 0;
+}
+.nav__link{
+    text-decoration: none;
+    color:#fff;
+}
+.button-1,
+.button-2{
+    text-decoration: none;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+img{
+    max-width: 80vw;
+}
+.section__four{
+    background-color: #3882F6;
+}
