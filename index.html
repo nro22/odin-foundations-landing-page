@@ -24,23 +24,41 @@
                 </li>
             </ul>
             <section class="section__one">
-                <h1>This website is awesome</h1>
-                <p class="headerText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia doloremque rerum pariatur reiciendis perferendis, mollitia corrupti rem quos aperiam!</p>
-                <a href="#" class="button-1">Sign up</a>
-                <img src="image01.jpg"class="image-1" alt="generic image">
+                <div class="col section__one-left">
+                    <h1>This website is awesome</h1>
+                    <p class="headerText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia doloremque rerum pariatur reiciendis perferendis, mollitia corrupti rem quos aperiam!</p>
+                    <a href="#" class="button-1">Sign up</a>
+                </div>
+                <div class="col section__one-right">
+                    <img src="image01.jpg"class="image-1" alt="generic image">
+                </div>
             </section>
         </div>
     </div>
     <section class="section__two content">
         <h2>Some random information.</h2>
-        <img src="image02.jpg" alt="">
-        <p class="imgText">An image from Samsung Memory via unsplash.com</p>
-        <img src="image03.jpg" alt="">
-        <p class="imgText">An image from Samsung Memory via unsplash.com</p>
-        <img src="image04.jpg" alt="">
-        <p class="imgText">An image from Samsung Memory via unsplash.com</p>
-        <img src="image05.jpg" alt="">
-        <p class="imgText">An image from Samsung Memory via unsplash.com</p>
+        <div class="row fourImages">
+                <div class="imgSection imgSectionOne">
+                    <div class="col imgGrid">
+                        <img src="image03.jpg" class="imgWide" alt="">
+                        <p class="imgText">An image from Samsung Memory via unsplash.com</p>
+                    </div>
+                    <div class="col imgGrid">
+                        <img src="image02.jpg" class="imgTall" alt="">
+                        <p class="imgText">An image from Samsung Memory via unsplash.com</p>
+                    </div>
+                </div>
+                <div class="imgSection imgSectionTwo">
+                    <div class="col imgGrid">
+                        <img src="image04.jpg" class="imgTall" alt="">
+                        <p class="imgText">An image from Samsung Memory via unsplash.com</p>
+                    </div>
+                    <div class="col imgGrid">
+                        <img src="image05.jpg" class="imgWide" alt="">
+                        <p class="imgText">An image from Samsung Memory via unsplash.com</p>
+                    </div>
+                </div>
+        </div>
     </section>
     <div class="section__three-container">
         <section class="section__three content">

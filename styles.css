@@ -112,5 +112,44 @@ h3{
 }
 
 @media(min-width:776px){
+    .section__one{
+        display: flex;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .image-1{
+        max-width: 100%;
+        margin-top: 4em;
+    }
+    .section__one-left{
+        flex-shrink: 1.5;
+    }
+    .section__one-right{
+        justify-content: center;
+    }
+    .fourImages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgSection{
+        display: flex;
+    }
+    .imgWide{
+        width: 424.9px;
+    }
+    .imgTall{
+        width: 175.1px;
+        height: 318.683px;
+    }
+    .imgText{
+        display: none;
+    }
+    .imgGrid{
+        padding: .25em;
+    }
 
 }
